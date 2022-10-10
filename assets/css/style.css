@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.accordian {
+    margin-top: 100px;
+}
+
+.accordianBody {
+    margin-bottom: 10px;
+}
+
+.accoheading {
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+}
+
+.accordianBody>p {
+    padding: 0 15px;
+    display: none;
+}
+
+.accoheading:hover,
+.accoheading.active {
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+
+.accordianBody>.activecontent {
+    display: block;
+}
